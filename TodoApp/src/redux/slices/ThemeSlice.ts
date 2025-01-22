@@ -7,7 +7,7 @@ interface ThemeState {
 const initialState: ThemeState = {
   isDarkTheme: false,
 };
-
+// console.log("trying something  ----------   ")
 const themeSlice = createSlice({
   name: 'theme',
   initialState,
